@@ -61,6 +61,6 @@ A secure, full-stack web application for tracking credit cards, monitoring trans
 - **Rate Limiting**: 50 req/15min for auth routes, 100 req/15min for API.
 - **Secure Headers**: HSTS, no-sniff, frame-guard enabled via Helmet.
 
-## 📝 License
+##  License
 
 ISC License

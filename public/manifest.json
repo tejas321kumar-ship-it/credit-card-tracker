@@ -1,0 +1,41 @@
+{
+    "name": "Card Tracker",
+    "short_name": "CardTracker",
+    "description": "Track your credit card spending and transactions",
+    "start_url": "/",
+    "display": "standalone",
+    "background_color": "#0a0a0f",
+    "theme_color": "#8b5cf6",
+    "orientation": "portrait-primary",
+    "icons": [
+        {
+            "src": "/icons/icon-192.svg",
+            "sizes": "192x192",
+            "type": "image/svg+xml",
+            "purpose": "any maskable"
+        },
+        {
+            "src": "/icons/icon-512.svg",
+            "sizes": "512x512",
+            "type": "image/svg+xml",
+            "purpose": "any maskable"
+        }
+    ],
+    "categories": [
+        "finance",
+        "productivity"
+    ],
+    "screenshots": [],
+    "shortcuts": [
+        {
+            "name": "Add Transaction",
+            "url": "/?action=transaction",
+            "description": "Add a new transaction"
+        },
+        {
+            "name": "Make Payment",
+            "url": "/?action=payment",
+            "description": "Make a payment"
+        }
+    ]
+}

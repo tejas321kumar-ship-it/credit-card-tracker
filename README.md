@@ -2,7 +2,7 @@
 
 A secure, full-stack web application for tracking credit cards, monitoring transactions, and managing budgets. Built with **Node.js**, **Express**, **SQLite**, and **Vanilla JS**.
 
-## ✨ Key Features
+##  Key Features
 
 - **Security First**: 
   - Helmet headers & CSP protection
@@ -23,14 +23,14 @@ A secure, full-stack web application for tracking credit cards, monitoring trans
   - Session management with "Remember Me"
   - Demo mode for quick testing
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 - **Backend**: Node.js, Express.js, SQLite3
 - **Security**: Helmet, csurf (custom impl), express-rate-limit, hpp, bcrypt, validator
 - **Frontend**: Vanilla HTML5, CSS3, JavaScript (ES6+)
 - **Icons**: Lucide Icons
 
-## 🚀 Getting Started
+##  Getting Started
 
 1. **Clone the repository**
    ```bash
@@ -49,12 +49,12 @@ A secure, full-stack web application for tracking credit cards, monitoring trans
    ```
    The app will run at `http://localhost:3000`
 
-## 🔑 Demo Credentials
+##  Demo Credentials
 
 - **Email**: `demo@example.com`
 - **Password**: `demo123`
 
-## 🔒 Security Measures implemented
+##  Security Measures implemented
 
 - **Input Validation**: All inputs are sanitized server-side to prevent injection attacks.
 - **CSRF Tokens**: Required for all state-changing requests (POST/PUT/DELETE).

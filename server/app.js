@@ -14,6 +14,9 @@ const { sanitizeString, validateEmail } = require('./validator');
 const app = express();
 const PORT = process.env.PORT || 3000;
 
+// Trust proxy (required for Render, Railway, etc. behind reverse proxies)
+app.set('trust proxy', 1);
+
 // Rate limiting map for login attempts
 const loginAttempts = new Map();
 const MAX_LOGIN_ATTEMPTS = 5;
